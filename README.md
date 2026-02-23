@@ -14,6 +14,12 @@ The output includes spatially explicit soil moisture maps and time series charts
 
 ---
 
+## Code
+
+The full GEE script is available here: [https://code.earthengine.google.com/4fac07e6b12be8e5c6b92e7829afdef8](https://code.earthengine.google.com/4fac07e6b12be8e5c6b92e7829afdef8)
+
+---
+
 ## Area of Interest
 
 | Parameter | Value |
@@ -98,12 +104,6 @@ Time series charts for a sample field polygon (~1 ha near 9.846°E, 51.337°N) a
 - Ascending and descending passes have different local overpass times, which can introduce differences in soil moisture signals due to diurnal variation.
 - Dense vegetation and surface roughness affect SAR backscatter independently of soil moisture, which may introduce noise in forested or cropland areas.
 - The `desc_sm` band is currently named `"sm_ascn"` due to a copy-paste artefact in the script; it should be renamed to `"sm_desc"` for clarity.
-
----
-
-## Code
-
-The full GEE script is available here: [https://code.earthengine.google.com/4fac07e6b12be8e5c6b92e7829afdef8](https://code.earthengine.google.com/4fac07e6b12be8e5c6b92e7829afdef8)
 
 ---
 
