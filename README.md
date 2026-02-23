@@ -10,7 +10,7 @@ This project derives a normalized soil moisture index from Sentinel-1 C-band SAR
 
 The output includes spatially explicit soil moisture maps and time series charts for the period 2019–2025, with export stacks covering 2023–2025.
 
-![Soil Moisture Map and Time Series](Soil_moisture.png)
+![Soil Moisture Map and Time Series](images/Soil_moisture.png)
 
 ---
 
@@ -101,9 +101,15 @@ Time series charts for a sample field polygon (~1 ha near 9.846°E, 51.337°N) a
 
 ---
 
+## Code
+
+The full GEE script is available here: [https://code.earthengine.google.com/4fac07e6b12be8e5c6b92e7829afdef8](https://code.earthengine.google.com/4fac07e6b12be8e5c6b92e7829afdef8)
+
+---
+
 ## Requirements
 
-- Google Earth Engine account with access to `COPERNICUS/S1_GRD` and `GOOGLE/DYNAMICWORLD/V1.`
+- Google Earth Engine account with access to `COPERNICUS/S1_GRD` and `GOOGLE/DYNAMICWORLD/V1`.
 - The variables `imageCollection` and `imageCollection2` must be defined before running the script (pointing to the S1 GRD and Dynamic World collections, respectively)
 
 ---
