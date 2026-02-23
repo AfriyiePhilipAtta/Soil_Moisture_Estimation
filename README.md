@@ -4,6 +4,12 @@ Estimation of relative surface soil moisture from Sentinel-1 SAR backscatter usi
 
 ---
 
+## Code
+
+The full GEE script is available here: [https://code.earthengine.google.com/4fac07e6b12be8e5c6b92e7829afdef8](https://code.earthengine.google.com/4fac07e6b12be8e5c6b92e7829afdef8)
+
+---
+
 ## Overview
 
 This project derives a normalized soil moisture index from Sentinel-1 C-band SAR (VV polarization, IW mode) for both ascending and descending orbit passes. The workflow aggregates imagery into 10-day composites, converts backscatter to sigma-naught (σ⁰), applies speckle filtering, masks out water bodies and urban areas, and normalizes the result to a 0–1 index.
@@ -11,12 +17,6 @@ This project derives a normalized soil moisture index from Sentinel-1 C-band SAR
 The output includes spatially explicit soil moisture maps and time series charts for the period 2019–2025, with export stacks covering 2023–2025.
 
 ![Soil Moisture Map and Time Series](images/Soil_moisture.png)
-
----
-
-## Code
-
-The full GEE script is available here: [https://code.earthengine.google.com/4fac07e6b12be8e5c6b92e7829afdef8](https://code.earthengine.google.com/4fac07e6b12be8e5c6b92e7829afdef8)
 
 ---
 
